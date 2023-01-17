@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #555;
+}
+
+header {
+  padding-right: 400px;
+  padding-left: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cinza {
+  background-color: #333;
+  text-align: center;
+  padding: 25px;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#laranja {
+  margin-top: 0;
+  background-color: orange;
+  height: 15px;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+  text-align: justify;
+}
+
+#sub-titulo {
+  font-size: 25px;
+}
+
+#editor {
+  font-weight: 700;
+}
+#logo-facebook {
+  width: 35px;
+  padding-right: 15px;
+}
+
+#logo-twitter {
+  width: 35px;
+}
+
+#logo-instagram {
+  padding-left: 15px;
+  width: 35px;
+}
+#linha-horizontal {
+  border-bottom: 1px solid #555;
+}
+
+main {
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #fd8a24;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+h2 {
+  color: black;
+  font-size: 35px;
+}
+
+#geladeira {
+  border-radius: 15px;
+  width: 100%;
+}
+
+#lampada {
+  border-radius: 15px;
+  width: 100%;
+}
+
+#chuveiro {
+  font-size: 15px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+footer {
+  height: 75px;
+  background-color: #333;
+  margin-top: 80px;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 40px;
+    text-align: start;
+  }
+
+  main {
+    padding: 25px;
+    margin: 0;
+  }
+
+  header {
+    padding: 25px;
+    margin: 0;
+  }
+
+  p {
+    text-align: start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: start;
+  }
+
+  main {
+    padding: 25px;
+    margin: 0;
+  }
+
+  header {
+    padding: 25px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 25px;
+    text-align: start;
+  }
+}
